@@ -14,6 +14,8 @@
 		3444CB511A6170DB00595450 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3444CB501A6170DB00595450 /* Images.xcassets */; };
 		3444CB541A6170DB00595450 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3444CB521A6170DB00595450 /* LaunchScreen.xib */; };
 		3444CB601A6170DB00595450 /* SelfSizingCellsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3444CB5F1A6170DB00595450 /* SelfSizingCellsTests.m */; };
+		3444CB6B1A61786900595450 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3444CB6A1A61786900595450 /* TableViewCell.m */; };
+		3444CB6E1A61831D00595450 /* NSIndexPath+USGNSStringValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3444CB6D1A61831D00595450 /* NSIndexPath+USGNSStringValue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		3444CB591A6170DB00595450 /* SelfSizingCellsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfSizingCellsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3444CB5E1A6170DB00595450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3444CB5F1A6170DB00595450 /* SelfSizingCellsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelfSizingCellsTests.m; sourceTree = "<group>"; };
+		3444CB691A61786900595450 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		3444CB6A1A61786900595450 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		3444CB6C1A61831D00595450 /* NSIndexPath+USGNSStringValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+USGNSStringValue.h"; sourceTree = "<group>"; };
+		3444CB6D1A61831D00595450 /* NSIndexPath+USGNSStringValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+USGNSStringValue.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				3444CB481A6170DB00595450 /* AppDelegate.m */,
 				3444CB4A1A6170DB00595450 /* ViewController.h */,
 				3444CB4B1A6170DB00595450 /* ViewController.m */,
+				3444CB691A61786900595450 /* TableViewCell.h */,
+				3444CB6A1A61786900595450 /* TableViewCell.m */,
+				3444CB6C1A61831D00595450 /* NSIndexPath+USGNSStringValue.h */,
+				3444CB6D1A61831D00595450 /* NSIndexPath+USGNSStringValue.m */,
 				3444CB4D1A6170DB00595450 /* Main.storyboard */,
 				3444CB501A6170DB00595450 /* Images.xcassets */,
 				3444CB521A6170DB00595450 /* LaunchScreen.xib */,
@@ -220,7 +230,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3444CB4C1A6170DB00595450 /* ViewController.m in Sources */,
+				3444CB6B1A61786900595450 /* TableViewCell.m in Sources */,
 				3444CB491A6170DB00595450 /* AppDelegate.m in Sources */,
+				3444CB6E1A61831D00595450 /* NSIndexPath+USGNSStringValue.m in Sources */,
 				3444CB461A6170DB00595450 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +426,7 @@
 				3444CB651A6170DB00595450 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3444CB661A6170DB00595450 /* Build configuration list for PBXNativeTarget "SelfSizingCellsTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +435,7 @@
 				3444CB681A6170DB00595450 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
